@@ -1,0 +1,48 @@
+.homeContainer {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+
+.homeTitle {
+  width: 100%;
+  font-size: 20px;
+}
+
+.homeSubtitle {
+  font-size: 16px;
+  align-self: flex-start;
+  opacity: 0.8;
+}
+
+.checkboxes {
+  display: flex;
+  align-self: flex-start;
+  margin: 0px 10px 10px 10px;
+}
+
+.checkboxText {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+@media only screen and (min-width: 400px) {
+  .homeContainer {
+    padding: 15px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .homeContainer {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .homeContainer {
+    padding: 30px;
+  }
+}

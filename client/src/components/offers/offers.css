@@ -1,0 +1,58 @@
+.offer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.offerItem {
+  flex: 1;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.offerImg {
+  width: 100%;
+}
+
+.offerName {
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.offerCity {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.offerPrice {
+  font-weight: 500;
+}
+
+.offerRating > button {
+  background-color: #003580;
+  color: white;
+  border: none;
+  padding: 3px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 3px 3px 3px 0px;
+}
+
+.offerRating > span {
+  font-size: 14px;
+}
+
+.offerStarting {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+@media only screen and (min-width: 600px) {
+  .offer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+}
